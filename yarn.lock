@@ -956,6 +956,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@scm-manager/prettier-config@^2.9.1":
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/@scm-manager/prettier-config/-/prettier-config-2.9.1.tgz#93ee922ec10218b55c187d52e2af95a09895a912"
+  integrity sha512-XHHppaWfsvdsKqTsYVH8915+EwaSdWLTh9TFMS6wpdUZzaf5yw+HehamdBqyqneB1eoVKVmMZxRP45Po/f+CmQ==
+  dependencies:
+    prettier "^1.19.1"
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -1193,6 +1200,11 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+prettier@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
