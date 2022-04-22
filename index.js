@@ -35,6 +35,10 @@ module.exports = api => {
       "@babel/preset-react",
       "@babel/preset-typescript"
     ],
-    plugins: ["babel-plugin-styled-components"]
+    plugins: [
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-syntax-dynamic-import",
+      "babel-plugin-styled-components"
+    ]
   };
 };
