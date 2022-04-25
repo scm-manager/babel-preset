@@ -21,24 +21,25 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
 module.exports = api => {
   api.cache.using(() => process.env.NODE_ENV || "production");
   return {
     presets: [
       [
-        "@babel/preset-env",
+        require("@babel/preset-env"),
         {
           loose: true
         }
       ],
-      "@babel/preset-flow",
-      "@babel/preset-react",
-      "@babel/preset-typescript"
+      require("@babel/preset-flow"),
+      require("@babel/preset-react"),
+      require("@babel/preset-typescript")
     ],
     plugins: [
-      "@babel/plugin-transform-runtime",
-      "@babel/plugin-syntax-dynamic-import",
-      "babel-plugin-styled-components"
+      require("@babel/plugin-transform-runtime"),
+      require("@babel/plugin-syntax-dynamic-import"),
+      require("babel-plugin-styled-components")
     ]
   };
 };
