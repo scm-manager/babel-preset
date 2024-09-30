@@ -1,10 +1,10 @@
 {
   "name": "@scm-manager/babel-preset",
   "version": "2.13.1",
-  "license": "MIT",
   "description": "Babel configuration for scm-manager and its plugins",
   "main": "index.js",
   "author": "SCM-Team <scm-team@cloudogu.com>",
+  "license": "AGPL-3.0-only",
   "private": false,
   "prettier": "@scm-manager/prettier-config",
   "dependencies": {
