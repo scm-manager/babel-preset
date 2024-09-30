@@ -63,8 +63,12 @@ pipeline {
         sh 'git checkout main'
 
         // push changes back to remote repository
-        authGit 'cesmarvin', 'push origin main --tags'
-        authGit 'cesmarvin', "push origin :${env.BRANCH_NAME}"
+        authGit 'SCM-Manager', 'push origin main --tags'
+        authGit 'SCM-Manager', "push origin :${env.BRANCH_NAME}"
+        
+        // push changes to GitHub
+        authGit 'cesmarvin', "push -f https://github.com/scm-manager/babel-preset main --tags"
+
       }
     }
   }
