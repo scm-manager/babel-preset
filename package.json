@@ -1,6 +1,6 @@
 {
   "name": "@scm-manager/babel-preset",
-  "version": "2.13.1",
+  "version": "3.0.0-alpha1",
   "description": "Babel configuration for scm-manager and its plugins",
   "main": "index.js",
   "author": "SCM-Team <scm-team@cloudogu.com>",
